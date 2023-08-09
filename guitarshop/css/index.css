@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --color-light: #bcbcbcdd;
+  --color-white: #fff;
+  --color-un-accent: #808080;
+  --color-medium: #a78ea3;
+  --color-USD: rgba(203, 55, 159, 0.943);
+
+  --spacing-small: 10px;
+  --spacing-medium: 15px;
+  --spacing-large: 30px;
+  --border-radius: 3px;
+
+  --linear-gradient: linear-gradient(
+    to right,
+    #cb21f1,
+    #eb57b2db,
+    #c35988db,
+    #c16889,
+    #ae7e96
+  );
+  --linear-gradient-hover: linear-gradient(
+    to right,
+    #920029,
+    #9e004adb,
+    #b23f73db,
+    #a84aa5,
+    #ae7e96
+  );
+  --box-shadow: 0 16px 24px 2px rgba(207, 164, 253, 0.201),
+    0 6px 30px 5px rgba(230, 89, 145, 0.169),
+    0 8px 10px -5px rgba(33, 37, 41, 0.1);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #471a1a;
+  border-radius: 9px;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--color-medium);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "EB Garamond", serif;
+  line-height: 1.7;
+  background-color: var(--color-light);
+}
